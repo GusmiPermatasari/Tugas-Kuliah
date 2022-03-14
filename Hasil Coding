@@ -1,0 +1,57 @@
+#TIPE_DATA
+#String
+Nama = ("Gusmi Permatasari")
+print (Nama,type(Nama))
+#Integer
+Tanggal_Lahir = 28
+print (Tanggal_Lahir,type (Tanggal_Lahir))
+#Float
+Angka = 49.45
+print (Angka,type(Angka))
+#Boolean
+a = 8<1 
+print(a,type(a))
+
+
+
+#ARITMATIKA
+a = 2
+b = 8
+#Pengurangan 
+print (a-b)
+#Perjumlahan
+print (a+b)
+#Perkalian
+print (a*b)
+#Pembagian
+print (a/b)
+#Sisabagi
+print (a%b)
+#Pembagian bulat
+print (a//b)
+
+#Percabangan If
+Nilai = 81
+if (Nilai >= 80):
+	print ("NILAI A")
+	
+#Percabangan IF Else
+nilai = 50
+if (nilai >=65):
+	print ("LULUS")
+else :
+	print ("TIDAK LULUS")
+	
+#Percabangan Elif
+
+nilai = 88
+if (nilai >= 50 and nilai < 65):
+	print("Nilai D")
+elif (nilai >= 65 and nilai <75):
+	print("Nilai C")
+elif (nilai >=75 and nilai <80):
+	print ("Nilai B")
+elif (nilai >= 80 and nilai <90):
+	print("Nilai A-")
+else:
+	print ("Nilai A+")
