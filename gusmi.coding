@@ -1,0 +1,50 @@
+#Tipe data list dalam perulangan
+data_list=["gusmi", 18.2, 2, True]
+for i in (data_list):
+	print(i)
+#mengupdate data list
+data_list[1]="nay"
+print(data_list)
+#menghapus data list
+data_list.remove(True)
+print(data_list)
+#menambahkan data list
+data_list.append(False)
+print(data_list)
+
+#tipe data tuple
+data_tuple = ("gusmi", "caca", "ani", "lisa")
+print(data_tuple,type(data_tuple))
+#perulangan  tipe data tuple
+for i in data_tuple:
+	print(i)
+	
+#tipe data set
+data_set = {5,4,3,"gusmi","rara","meli"}
+for i in data_set:
+     print(i)
+#menghapus
+data_set.remove("rara")
+print(data_set)
+#menambahkan
+data_set.add(28)
+print(data_set)
+
+#tipe data dictionary
+data_dictionary= {
+"nama":"gusmi",
+"umur":"18tahun",
+"asal":"wajo"}
+i=0
+while i<2:
+	print(data_dictionary)
+	i+=2
+
+#mengupdate
+data_dictionary["nama"]="rara"
+print(data_dictionary)
+data_dictionary["umur"]= "19tahun"
+print(data_dictionary)
+#menghapus
+del data_dictionary["asal"]
+print(data_dictionary)
